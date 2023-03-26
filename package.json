@@ -1,0 +1,21 @@
+{
+  "name": "atividade3",
+  "version": "1.0.0",
+  "description": "Projeto de envio de e-mail para atividade 3",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "config": "^3.3.9",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "author": "Luis Seidel",
+  "license": "MIT"
+}

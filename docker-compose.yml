@@ -1,0 +1,10 @@
+services:
+  mailhog:
+    container_name: docker_mailhog
+    image: mailhog/mailhog:latest
+    logging:
+      driver: none
+    ports:
+      - "1025:1025" # smtp
+      - "8025:8025" # UI
+version: "3"

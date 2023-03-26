@@ -1,0 +1,7 @@
+{
+	"mailhog": {
+		"host": "localhost",
+		"smtp_port": 1025
+	},
+	"app_port": 3005
+}
